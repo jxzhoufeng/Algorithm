@@ -18,6 +18,23 @@ import UIKit
  */
 class RomanNumber: NSObject {
     
+    // 13. 罗马数字转整数 https://leetcode-cn.com/problems/roman-to-integer/
+    func romanToInt(_ s: String) -> Int {
+        let dict = ["M" : 1000, "D" : 500, "C" : 100, "L" : 50, "X" : 10, "V" : 5, "I" : 1]
+        var result = 0
+        for (i, c) in s.enumerated() {
+            let value = dict["\(c)"] ?? 0
+            let next = s.index(s.startIndex, offsetBy: i+1)
+            if i < s.count - 1 && value < dict["\(s[next])"] ?? 0 {
+                result -= value
+            }else {
+                result += value
+            }
+        }
+        
+        return result
+    }
+    
     // 12. 整数转罗马数字 https://leetcode-cn.com/problems/integer-to-roman/
     func intToRoman(_ num: Int) -> String {
         let values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]

@@ -18,6 +18,11 @@
 		E0BCFDF226C10C3F0026F5AC /* ConvertString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDF126C10C3F0026F5AC /* ConvertString.swift */; };
 		E0BCFDF526C115460026F5AC /* MyAtoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDF426C115460026F5AC /* MyAtoi.swift */; };
 		E0BCFDF826C141A20026F5AC /* RomanNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDF726C141A20026F5AC /* RomanNumber.swift */; };
+		E0BCFF0C26C21A3C0026F5AC /* ArithmeticSlices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF0B26C21A3C0026F5AC /* ArithmeticSlices.swift */; };
+		E0BCFF0F26C25CD20026F5AC /* ThreeSumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF0E26C25CD20026F5AC /* ThreeSumClosest.swift */; };
+		E0BCFF1226C27DAD0026F5AC /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF1126C27DAC0026F5AC /* LetterCombinations.swift */; };
+		E0BCFF1526C284BE0026F5AC /* RemoveNthFromEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF1426C284BE0026F5AC /* RemoveNthFromEnd.swift */; };
+		E0BCFF1826C294A60026F5AC /* ValidBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF1726C294A60026F5AC /* ValidBrackets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		E0BCFDF126C10C3F0026F5AC /* ConvertString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertString.swift; sourceTree = "<group>"; };
 		E0BCFDF426C115460026F5AC /* MyAtoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAtoi.swift; sourceTree = "<group>"; };
 		E0BCFDF726C141A20026F5AC /* RomanNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumber.swift; sourceTree = "<group>"; };
+		E0BCFF0B26C21A3C0026F5AC /* ArithmeticSlices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticSlices.swift; sourceTree = "<group>"; };
+		E0BCFF0E26C25CD20026F5AC /* ThreeSumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosest.swift; sourceTree = "<group>"; };
+		E0BCFF1126C27DAC0026F5AC /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
+		E0BCFF1426C284BE0026F5AC /* RemoveNthFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthFromEnd.swift; sourceTree = "<group>"; };
+		E0BCFF1726C294A60026F5AC /* ValidBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBrackets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,11 @@
 				E0BCFDF126C10C3F0026F5AC /* ConvertString.swift */,
 				E0BCFDF426C115460026F5AC /* MyAtoi.swift */,
 				E0BCFDF726C141A20026F5AC /* RomanNumber.swift */,
+				E0BCFF0B26C21A3C0026F5AC /* ArithmeticSlices.swift */,
+				E0BCFF0E26C25CD20026F5AC /* ThreeSumClosest.swift */,
+				E0BCFF1426C284BE0026F5AC /* RemoveNthFromEnd.swift */,
+				E0BCFF1126C27DAC0026F5AC /* LetterCombinations.swift */,
+				E0BCFF1726C294A60026F5AC /* ValidBrackets.swift */,
 				E0BCFDD426C0C8050026F5AC /* Main.storyboard */,
 				E0BCFDD726C0C8080026F5AC /* Assets.xcassets */,
 				E0BCFDD926C0C8080026F5AC /* LaunchScreen.storyboard */,
@@ -153,10 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BCFDE426C0C82B0026F5AC /* IsUgly.swift in Sources */,
+				E0BCFF1826C294A60026F5AC /* ValidBrackets.swift in Sources */,
 				E0BCFDD326C0C8050026F5AC /* ViewController.swift in Sources */,
+				E0BCFF0F26C25CD20026F5AC /* ThreeSumClosest.swift in Sources */,
+				E0BCFF0C26C21A3C0026F5AC /* ArithmeticSlices.swift in Sources */,
 				E0BCFDF826C141A20026F5AC /* RomanNumber.swift in Sources */,
 				E0BCFDF226C10C3F0026F5AC /* ConvertString.swift in Sources */,
 				E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */,
+				E0BCFF1226C27DAD0026F5AC /* LetterCombinations.swift in Sources */,
+				E0BCFF1526C284BE0026F5AC /* RemoveNthFromEnd.swift in Sources */,
 				E0BCFDEB26C0FF880026F5AC /* KWeakestRows.swift in Sources */,
 				E0BCFDD126C0C8050026F5AC /* SceneDelegate.swift in Sources */,
 				E0BCFDF526C115460026F5AC /* MyAtoi.swift in Sources */,

@@ -13,8 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let u = RomanNumber()
-        u.intToRoman(1234)
+        let u = ThreeSumClosest()
+        let res = u.twoSum([3,2,4], 6)
+        print(123)
     }
 
 
