@@ -34,6 +34,34 @@ class ValidBrackets: NSObject {
             }
         }
         return stack.isEmpty
-//        return false
+    }
+    
+    
+    // 22. 括号生成 https://leetcode-cn.com/problems/generate-parentheses/
+    var result = [String]()
+    
+    func generateParenthesis(_ n: Int) -> [String] {
+        
+        dfs(n, n, "")
+        return result
+    }
+    
+    func dfs(_ left: Int, _ right: Int, _ str: String) {
+        if left == 0 && right == 0 {
+            result.append(str)
+            return
+        }
+        
+        if left > right {
+            return
+        }
+        
+        if left > 0 {
+            dfs(left - 1, right, str + "(")
+        }
+        
+        if right > 0 {
+            dfs(left, right - 1, str + ")")
+        }
     }
 }

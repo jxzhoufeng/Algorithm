@@ -13,8 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let u = ThreeSumClosest()
-        let res = u.twoSum([3,2,4], 6)
+        let u = RemoveDuplicates()
+        var nums = [2,9,3,1]
+        u.nextPermutation(&nums)
         print(123)
     }
 

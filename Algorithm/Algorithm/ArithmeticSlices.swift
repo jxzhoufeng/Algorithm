@@ -31,7 +31,20 @@ class ArithmeticSlices: NSObject {
     
     // 446. 等差数列划分 II - 子序列 https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/
     func numberOfArithmeticSlices2(_ nums: [Int]) -> Int {
-        
+        var dp = [[Int: Int]]()
+        for _ in 0..<nums.count {
+            dp.append([Int : Int]())
+        }
+        for i in 1..<nums.count {
+            for j in 0..<i {
+                let diff = nums[i] - nums[j]
+//                var di = dp[i]
+//                let dj = dp[j]
+                var di = dp[i][diff] ?? 0
+                di += (dp[j][diff] ?? 0 + 1)
+                dp[i][diff] = di
+            }
+        }
         return 0
     }
     

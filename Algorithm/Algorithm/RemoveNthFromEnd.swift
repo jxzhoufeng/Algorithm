@@ -23,6 +23,30 @@ class RemoveNthFromEnd: NSObject {
         second?.next = second?.next?.next
         return dummy.next
     }
+    
+    // 24. 两两交换链表中的节点 https://leetcode-cn.com/problems/swap-nodes-in-pairs/
+    func swapPairs(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil {
+            return head
+        }
+        let dummy = ListNode(0, head)
+        var tmp: ListNode? = dummy
+        
+        while tmp?.next != nil && tmp?.next?.next != nil {
+            let n1 = tmp?.next
+            let n2 = n1?.next
+            tmp?.next = n2
+            n1?.next = n2?.next
+            n2?.next = n1
+            tmp = n1
+        }
+        
+        return dummy.next
+    }
+    
+    func swapeTwoNode() {
+        
+    }
 }
 
 public class ListNode {
