@@ -13,10 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let u = RemoveDuplicates()
-        var nums = [2,9,3,1]
-        u.nextPermutation(&nums)
-        print(123)
+        let u = CountAndSay()
+        let r = u.countAndSay(5)
+        print(r)
     }
 
 
