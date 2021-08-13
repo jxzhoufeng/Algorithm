@@ -30,6 +30,10 @@
 		E0BCFF2726C50E4F0026F5AC /* IsValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF2626C50E4F0026F5AC /* IsValidSudoku.swift */; };
 		E0BCFF2A26C5170A0026F5AC /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF2926C5170A0026F5AC /* CountAndSay.swift */; };
 		E0BCFF2D26C521280026F5AC /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF2C26C521280026F5AC /* CombinationSum.swift */; };
+		E0BCFF3026C523700026F5AC /* FirstMissingPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF2F26C523700026F5AC /* FirstMissingPositive.swift */; };
+		E0BCFF6926C611E80026F5AC /* CountDigitOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF6826C611E80026F5AC /* CountDigitOne.swift */; };
+		E0BCFF6C26C646760026F5AC /* StringMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF6B26C646760026F5AC /* StringMultiply.swift */; };
+		E0BCFF6F26C64E370026F5AC /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF6E26C64E370026F5AC /* RotateArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,10 @@
 		E0BCFF2626C50E4F0026F5AC /* IsValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidSudoku.swift; sourceTree = "<group>"; };
 		E0BCFF2926C5170A0026F5AC /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 		E0BCFF2C26C521280026F5AC /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
+		E0BCFF2F26C523700026F5AC /* FirstMissingPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMissingPositive.swift; sourceTree = "<group>"; };
+		E0BCFF6826C611E80026F5AC /* CountDigitOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDigitOne.swift; sourceTree = "<group>"; };
+		E0BCFF6B26C646760026F5AC /* StringMultiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringMultiply.swift; sourceTree = "<group>"; };
+		E0BCFF6E26C64E370026F5AC /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,10 @@
 				E0BCFF2626C50E4F0026F5AC /* IsValidSudoku.swift */,
 				E0BCFF2926C5170A0026F5AC /* CountAndSay.swift */,
 				E0BCFF2C26C521280026F5AC /* CombinationSum.swift */,
+				E0BCFF2F26C523700026F5AC /* FirstMissingPositive.swift */,
+				E0BCFF6826C611E80026F5AC /* CountDigitOne.swift */,
+				E0BCFF6B26C646760026F5AC /* StringMultiply.swift */,
+				E0BCFF6E26C64E370026F5AC /* RotateArray.swift */,
 				E0BCFDD426C0C8050026F5AC /* Main.storyboard */,
 				E0BCFDD726C0C8080026F5AC /* Assets.xcassets */,
 				E0BCFDD926C0C8080026F5AC /* LaunchScreen.storyboard */,
@@ -188,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BCFF6926C611E80026F5AC /* CountDigitOne.swift in Sources */,
 				E0BCFDE426C0C82B0026F5AC /* IsUgly.swift in Sources */,
 				E0BCFF1826C294A60026F5AC /* ValidBrackets.swift in Sources */,
 				E0BCFF2126C4BB110026F5AC /* LongestPalindromeSubseq.swift in Sources */,
@@ -197,6 +210,7 @@
 				E0BCFDF826C141A20026F5AC /* RomanNumber.swift in Sources */,
 				E0BCFF1B26C3A0120026F5AC /* IsPrefixString.swift in Sources */,
 				E0BCFDF226C10C3F0026F5AC /* ConvertString.swift in Sources */,
+				E0BCFF3026C523700026F5AC /* FirstMissingPositive.swift in Sources */,
 				E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */,
 				E0BCFF2426C4F5020026F5AC /* SearchArray.swift in Sources */,
 				E0BCFF2726C50E4F0026F5AC /* IsValidSudoku.swift in Sources */,
@@ -204,10 +218,12 @@
 				E0BCFF2A26C5170A0026F5AC /* CountAndSay.swift in Sources */,
 				E0BCFF1E26C3BB870026F5AC /* RemoveDuplicates.swift in Sources */,
 				E0BCFF2D26C521280026F5AC /* CombinationSum.swift in Sources */,
+				E0BCFF6F26C64E370026F5AC /* RotateArray.swift in Sources */,
 				E0BCFF1526C284BE0026F5AC /* RemoveNthFromEnd.swift in Sources */,
 				E0BCFDEB26C0FF880026F5AC /* KWeakestRows.swift in Sources */,
 				E0BCFDD126C0C8050026F5AC /* SceneDelegate.swift in Sources */,
 				E0BCFDF526C115460026F5AC /* MyAtoi.swift in Sources */,
+				E0BCFF6C26C646760026F5AC /* StringMultiply.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
