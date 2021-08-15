@@ -25,4 +25,11 @@ class MergeArray: NSObject {
         }
         return merged
     }
+    
+    // 57. 插入区间 https://leetcode-cn.com/problems/insert-interval/
+    func insert(_ intervals: [[Int]], _ newInterval: [Int]) -> [[Int]] {
+        var arr = intervals
+        arr.append(newInterval)
+        return merge(arr)
+    }
 }
