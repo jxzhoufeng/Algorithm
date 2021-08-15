@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E064439026C8EF2800F49CF5 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064438F26C8EF2800F49CF5 /* GroupAnagrams.swift */; };
+		E064439226C8F8CA00F49CF5 /* SpiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064439126C8F8CA00F49CF5 /* SpiralOrder.swift */; };
+		E064439426C906DC00F49CF5 /* MergeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064439326C906DC00F49CF5 /* MergeArray.swift */; };
 		E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDCE26C0C8050026F5AC /* AppDelegate.swift */; };
 		E0BCFDD126C0C8050026F5AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDD026C0C8050026F5AC /* SceneDelegate.swift */; };
 		E0BCFDD326C0C8050026F5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDD226C0C8050026F5AC /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E064438F26C8EF2800F49CF5 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
+		E064439126C8F8CA00F49CF5 /* SpiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralOrder.swift; sourceTree = "<group>"; };
+		E064439326C906DC00F49CF5 /* MergeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArray.swift; sourceTree = "<group>"; };
 		E0BCFDCB26C0C8050026F5AC /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BCFDCE26C0C8050026F5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BCFDD026C0C8050026F5AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +128,9 @@
 				E0BCFF6826C611E80026F5AC /* CountDigitOne.swift */,
 				E0BCFF6B26C646760026F5AC /* StringMultiply.swift */,
 				E0BCFF6E26C64E370026F5AC /* RotateArray.swift */,
+				E064438F26C8EF2800F49CF5 /* GroupAnagrams.swift */,
+				E064439126C8F8CA00F49CF5 /* SpiralOrder.swift */,
+				E064439326C906DC00F49CF5 /* MergeArray.swift */,
 				E0BCFDD426C0C8050026F5AC /* Main.storyboard */,
 				E0BCFDD726C0C8080026F5AC /* Assets.xcassets */,
 				E0BCFDD926C0C8080026F5AC /* LaunchScreen.storyboard */,
@@ -211,7 +220,9 @@
 				E0BCFF1B26C3A0120026F5AC /* IsPrefixString.swift in Sources */,
 				E0BCFDF226C10C3F0026F5AC /* ConvertString.swift in Sources */,
 				E0BCFF3026C523700026F5AC /* FirstMissingPositive.swift in Sources */,
+				E064439026C8EF2800F49CF5 /* GroupAnagrams.swift in Sources */,
 				E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */,
+				E064439226C8F8CA00F49CF5 /* SpiralOrder.swift in Sources */,
 				E0BCFF2426C4F5020026F5AC /* SearchArray.swift in Sources */,
 				E0BCFF2726C50E4F0026F5AC /* IsValidSudoku.swift in Sources */,
 				E0BCFF1226C27DAD0026F5AC /* LetterCombinations.swift in Sources */,
@@ -220,6 +231,7 @@
 				E0BCFF2D26C521280026F5AC /* CombinationSum.swift in Sources */,
 				E0BCFF6F26C64E370026F5AC /* RotateArray.swift in Sources */,
 				E0BCFF1526C284BE0026F5AC /* RemoveNthFromEnd.swift in Sources */,
+				E064439426C906DC00F49CF5 /* MergeArray.swift in Sources */,
 				E0BCFDEB26C0FF880026F5AC /* KWeakestRows.swift in Sources */,
 				E0BCFDD126C0C8050026F5AC /* SceneDelegate.swift in Sources */,
 				E0BCFDF526C115460026F5AC /* MyAtoi.swift in Sources */,
