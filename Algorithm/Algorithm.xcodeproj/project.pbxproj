@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E048E63226CA7B4300DE8C42 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E048E63126CA7B4300DE8C42 /* LengthOfLastWord.swift */; };
+		E048E63426CB72FA00DE8C42 /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E048E63326CB72F900DE8C42 /* MergeTwoLists.swift */; };
+		E048E63626CBE3EA00DE8C42 /* CheckRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E048E63526CBE3EA00DE8C42 /* CheckRecord.swift */; };
 		E064439026C8EF2800F49CF5 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064438F26C8EF2800F49CF5 /* GroupAnagrams.swift */; };
 		E064439226C8F8CA00F49CF5 /* SpiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064439126C8F8CA00F49CF5 /* SpiralOrder.swift */; };
 		E064439426C906DC00F49CF5 /* MergeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064439326C906DC00F49CF5 /* MergeArray.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E048E63126CA7B4300DE8C42 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
+		E048E63326CB72F900DE8C42 /* MergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLists.swift; sourceTree = "<group>"; };
+		E048E63526CBE3EA00DE8C42 /* CheckRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRecord.swift; sourceTree = "<group>"; };
 		E064438F26C8EF2800F49CF5 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		E064439126C8F8CA00F49CF5 /* SpiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralOrder.swift; sourceTree = "<group>"; };
 		E064439326C906DC00F49CF5 /* MergeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArray.swift; sourceTree = "<group>"; };
@@ -131,6 +137,9 @@
 				E064438F26C8EF2800F49CF5 /* GroupAnagrams.swift */,
 				E064439126C8F8CA00F49CF5 /* SpiralOrder.swift */,
 				E064439326C906DC00F49CF5 /* MergeArray.swift */,
+				E048E63126CA7B4300DE8C42 /* LengthOfLastWord.swift */,
+				E048E63326CB72F900DE8C42 /* MergeTwoLists.swift */,
+				E048E63526CBE3EA00DE8C42 /* CheckRecord.swift */,
 				E0BCFDD426C0C8050026F5AC /* Main.storyboard */,
 				E0BCFDD726C0C8080026F5AC /* Assets.xcassets */,
 				E0BCFDD926C0C8080026F5AC /* LaunchScreen.storyboard */,
@@ -216,7 +225,9 @@
 				E0BCFDD326C0C8050026F5AC /* ViewController.swift in Sources */,
 				E0BCFF0F26C25CD20026F5AC /* ThreeSumClosest.swift in Sources */,
 				E0BCFF0C26C21A3C0026F5AC /* ArithmeticSlices.swift in Sources */,
+				E048E63626CBE3EA00DE8C42 /* CheckRecord.swift in Sources */,
 				E0BCFDF826C141A20026F5AC /* RomanNumber.swift in Sources */,
+				E048E63226CA7B4300DE8C42 /* LengthOfLastWord.swift in Sources */,
 				E0BCFF1B26C3A0120026F5AC /* IsPrefixString.swift in Sources */,
 				E0BCFDF226C10C3F0026F5AC /* ConvertString.swift in Sources */,
 				E0BCFF3026C523700026F5AC /* FirstMissingPositive.swift in Sources */,
@@ -224,6 +235,7 @@
 				E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */,
 				E064439226C8F8CA00F49CF5 /* SpiralOrder.swift in Sources */,
 				E0BCFF2426C4F5020026F5AC /* SearchArray.swift in Sources */,
+				E048E63426CB72FA00DE8C42 /* MergeTwoLists.swift in Sources */,
 				E0BCFF2726C50E4F0026F5AC /* IsValidSudoku.swift in Sources */,
 				E0BCFF1226C27DAD0026F5AC /* LetterCombinations.swift in Sources */,
 				E0BCFF2A26C5170A0026F5AC /* CountAndSay.swift in Sources */,

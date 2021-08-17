@@ -70,4 +70,48 @@ class SpiralOrder: NSObject {
         }
         return result
     }
+    
+    // 59. 螺旋矩阵 II https://leetcode-cn.com/problems/spiral-matrix-ii/
+    func generateMatrix(_ n: Int) -> [[Int]] {
+        var result = [[Int]](repeating: [Int](repeating: 0, count: n), count: n)
+        // 方向 0 - 右 1 - 下 2 - 左 3 - 上
+        var direction = 0
+        var row = 0
+        var column = 0
+        for num in 1...n*n {
+            result[column][row] = num
+            switch direction {
+            case 0:
+                if row == n - 1 || result[column][row + 1] != 0 {
+                    column += 1
+                    direction = 1
+                }else {
+                    row += 1
+                }
+            case 1:
+                if column == n - 1 || result[column + 1][row] != 0 {
+                    row -= 1
+                    direction = 2
+                }else {
+                    column += 1
+                }
+            case 2:
+                if row == 0 || result[column][row - 1] != 0 {
+                    column -= 1
+                    direction = 3
+                }else {
+                    row -= 1
+                }
+            default:
+                if column == 0 || result[column - 1][row] != 0 {
+                    row += 1
+                    direction = 0
+                }else {
+                    column -= 1
+                }
+            }
+            
+        }
+        return result
+    }
 }

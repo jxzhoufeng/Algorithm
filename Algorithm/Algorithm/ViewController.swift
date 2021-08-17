@@ -13,9 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let u = RotateArray()
+        let u = SpiralOrder()
         var arr = [[1,2,3],[4,5,6],[7,8,9]]
-        let r = u.rotate(&arr)
+        let r = u.generateMatrix(3)
         print(r)
     }
 
