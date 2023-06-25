@@ -13,12 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let u = RotateArray()
-        var arr = [[1,2,3],[4,5,6],[7,8,9]]
-        let r = u.rotate(&arr)
-        print(r)
+        let u = RemoveDuplicates()
+        var nums1 = [1]
+        u.merge(&nums1, 1, [], 0)
+//        print(r)
     }
-
-
 }
 
