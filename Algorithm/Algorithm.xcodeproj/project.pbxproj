@@ -11,6 +11,12 @@
 		E009B31E2A47E41D0065A776 /* CheckOverlap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B31D2A47E41D0065A776 /* CheckOverlap.swift */; };
 		E009B3202A4822510065A776 /* DeleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B31F2A4822510065A776 /* DeleteDuplicates.swift */; };
 		E009B3222A483D650065A776 /* IsSameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3212A483D650065A776 /* IsSameTree.swift */; };
+		E009B3242A4933110065A776 /* PivotInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3232A4933110065A776 /* PivotInteger.swift */; };
+		E009B3272A498D090065A776 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3262A498D090065A776 /* Generate.swift */; };
+		E009B3A72A4D8ADD0065A776 /* ReconstructMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3A62A4D8ADD0065A776 /* ReconstructMatrix.swift */; };
+		E009B3A92A4D9D4E0065A776 /* ConvertToTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3A82A4D9D4E0065A776 /* ConvertToTitle.swift */; };
+		E009B3AB2A4DA1F40065A776 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3AA2A4DA1F40065A776 /* MajorityElement.swift */; };
+		E009B3AD2A4E86950065A776 /* IsCircularSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3AC2A4E86950065A776 /* IsCircularSentence.swift */; };
 		E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDCE26C0C8050026F5AC /* AppDelegate.swift */; };
 		E0BCFDD126C0C8050026F5AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDD026C0C8050026F5AC /* SceneDelegate.swift */; };
 		E0BCFDD326C0C8050026F5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDD226C0C8050026F5AC /* ViewController.swift */; };
@@ -45,6 +51,12 @@
 		E009B31D2A47E41D0065A776 /* CheckOverlap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOverlap.swift; sourceTree = "<group>"; };
 		E009B31F2A4822510065A776 /* DeleteDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicates.swift; sourceTree = "<group>"; };
 		E009B3212A483D650065A776 /* IsSameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSameTree.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		E009B3232A4933110065A776 /* PivotInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PivotInteger.swift; sourceTree = "<group>"; };
+		E009B3262A498D090065A776 /* Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate.swift; sourceTree = "<group>"; };
+		E009B3A62A4D8ADD0065A776 /* ReconstructMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconstructMatrix.swift; sourceTree = "<group>"; };
+		E009B3A82A4D9D4E0065A776 /* ConvertToTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertToTitle.swift; sourceTree = "<group>"; };
+		E009B3AA2A4DA1F40065A776 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
+		E009B3AC2A4E86950065A776 /* IsCircularSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCircularSentence.swift; sourceTree = "<group>"; };
 		E0BCFDCB26C0C8050026F5AC /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BCFDCE26C0C8050026F5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BCFDD026C0C8050026F5AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +146,12 @@
 				E009B31D2A47E41D0065A776 /* CheckOverlap.swift */,
 				E009B31F2A4822510065A776 /* DeleteDuplicates.swift */,
 				E009B3212A483D650065A776 /* IsSameTree.swift */,
+				E009B3232A4933110065A776 /* PivotInteger.swift */,
+				E009B3262A498D090065A776 /* Generate.swift */,
+				E009B3A62A4D8ADD0065A776 /* ReconstructMatrix.swift */,
+				E009B3A82A4D9D4E0065A776 /* ConvertToTitle.swift */,
+				E009B3AA2A4DA1F40065A776 /* MajorityElement.swift */,
+				E009B3AC2A4E86950065A776 /* IsCircularSentence.swift */,
 				E0BCFDD426C0C8050026F5AC /* Main.storyboard */,
 				E0BCFDD726C0C8080026F5AC /* Assets.xcassets */,
 				E0BCFDD926C0C8080026F5AC /* LaunchScreen.storyboard */,
@@ -214,23 +232,29 @@
 			files = (
 				E0BCFF6926C611E80026F5AC /* CountDigitOne.swift in Sources */,
 				E0BCFDE426C0C82B0026F5AC /* IsUgly.swift in Sources */,
+				E009B3272A498D090065A776 /* Generate.swift in Sources */,
 				E0BCFF1826C294A60026F5AC /* ValidBrackets.swift in Sources */,
 				E0BCFF2126C4BB110026F5AC /* LongestPalindromeSubseq.swift in Sources */,
+				E009B3AD2A4E86950065A776 /* IsCircularSentence.swift in Sources */,
 				E0BCFDD326C0C8050026F5AC /* ViewController.swift in Sources */,
 				E009B3222A483D650065A776 /* IsSameTree.swift in Sources */,
 				E0BCFF0F26C25CD20026F5AC /* ThreeSumClosest.swift in Sources */,
 				E0BCFF0C26C21A3C0026F5AC /* ArithmeticSlices.swift in Sources */,
 				E009B31C2A42FC2C0065A776 /* AddBinary.swift in Sources */,
 				E0BCFDF826C141A20026F5AC /* RomanNumber.swift in Sources */,
+				E009B3AB2A4DA1F40065A776 /* MajorityElement.swift in Sources */,
 				E0BCFF1B26C3A0120026F5AC /* IsPrefixString.swift in Sources */,
 				E0BCFDF226C10C3F0026F5AC /* ConvertString.swift in Sources */,
 				E0BCFF3026C523700026F5AC /* FirstMissingPositive.swift in Sources */,
 				E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */,
 				E0BCFF2426C4F5020026F5AC /* SearchArray.swift in Sources */,
+				E009B3A72A4D8ADD0065A776 /* ReconstructMatrix.swift in Sources */,
 				E0BCFF2726C50E4F0026F5AC /* IsValidSudoku.swift in Sources */,
 				E0BCFF1226C27DAD0026F5AC /* LetterCombinations.swift in Sources */,
 				E0BCFF2A26C5170A0026F5AC /* CountAndSay.swift in Sources */,
 				E0BCFF1E26C3BB870026F5AC /* RemoveDuplicates.swift in Sources */,
+				E009B3A92A4D9D4E0065A776 /* ConvertToTitle.swift in Sources */,
+				E009B3242A4933110065A776 /* PivotInteger.swift in Sources */,
 				E009B3202A4822510065A776 /* DeleteDuplicates.swift in Sources */,
 				E009B31E2A47E41D0065A776 /* CheckOverlap.swift in Sources */,
 				E0BCFF2D26C521280026F5AC /* CombinationSum.swift in Sources */,

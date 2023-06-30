@@ -13,10 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let u = RemoveDuplicates()
-        var nums1 = [1]
-        u.merge(&nums1, 1, [], 0)
-//        print(r)
+        let u = ConvertToTitle()
+        let r = u.titleToNumber("ZY")
+        print(r)
     }
 }
 

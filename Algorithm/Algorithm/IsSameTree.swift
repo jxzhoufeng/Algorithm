@@ -63,6 +63,69 @@ class IsSameTree {
         node.right = helper(nums, left: mid + 1, right: right)
         return node
     }
+    
+    // 110. 平衡二叉树 https://leetcode.cn/problems/balanced-binary-tree/
+    func isBalanced(_ root: TreeNode?) -> Bool {
+        return height(root) >= 0
+    }
+    
+    private func height(_ root: TreeNode?) -> Int {
+        if root == nil {
+            return 0
+        }
+        let leftH = height(root?.left)
+        let rightH = height(root?.right)
+        if leftH == -1 || rightH == -1 || abs(leftH - rightH) > 1 {
+            return -1
+        }
+        return max(leftH, rightH) + 1
+    }
+    
+    // 111. 二叉树的最小深度 https://leetcode.cn/problems/minimum-depth-of-binary-tree/
+    func minDepth(_ root: TreeNode?) -> Int {
+        return depth(root)
+    }
+    
+    private func depth(_ root: TreeNode?) -> Int {
+        if root == nil {
+            return 0
+        }
+        if root?.left == nil && root?.right == nil {
+            return 1
+        }
+        let left = root?.left
+        let right = root?.right
+        let d1 = depth(left)
+        let d2 = depth(right)
+        if left == nil || right == nil {
+            return d1 + d2 + 1
+        }
+        return min(d1, d2) + 1
+    }
+    
+    // 112. 路径总和 https://leetcode.cn/problems/path-sum/
+    func hasPathSum(_ root: TreeNode?, _ targetSum: Int) -> Bool {
+        if root == nil { return false }
+        if root?.left == nil && root?.right == nil {
+            return targetSum == root?.val
+        }
+        return hasPathSum(root?.left, targetSum - (root?.val ?? 0)) ||
+        hasPathSum(root?.right, targetSum - (root?.val ?? 0))
+        
+    }
+    
+    private func pathSum(_ root: TreeNode?, _ targetSum: Int, currentSum: Int) -> Bool {
+        if root?.left == nil && root?.right == nil {
+            let sum = currentSum + (root?.val ?? 0)
+            if sum == targetSum {
+                return true
+            }
+        }
+        let left = root?.left
+        let right = root?.right
+        return pathSum(left, targetSum, currentSum: currentSum + (left?.val ?? 0)) ||
+               pathSum(right, targetSum, currentSum: currentSum + (right?.val ?? 0))
+    }
 }
 
 

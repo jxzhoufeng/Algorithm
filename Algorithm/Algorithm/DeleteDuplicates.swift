@@ -23,4 +23,19 @@ class DeleteDuplicates {
         }
         return head
     }
+    
+    // 160. 相交链表 https://leetcode.cn/problems/intersection-of-two-linked-lists/
+    func getIntersectionNode(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
+        if headA == nil || headB == nil {
+            return nil
+        }
+        var curA = headA
+        var curB = headB
+        
+        while curA !== curB {
+            curA = curA == nil ? headB : curA!.next
+            curB = curB == nil ? headA : curB!.next
+        }
+        return curA
+    }
 }
