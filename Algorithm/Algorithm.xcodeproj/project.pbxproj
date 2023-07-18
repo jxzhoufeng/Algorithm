@@ -17,6 +17,24 @@
 		E009B3A92A4D9D4E0065A776 /* ConvertToTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3A82A4D9D4E0065A776 /* ConvertToTitle.swift */; };
 		E009B3AB2A4DA1F40065A776 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3AA2A4DA1F40065A776 /* MajorityElement.swift */; };
 		E009B3AD2A4E86950065A776 /* IsCircularSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B3AC2A4E86950065A776 /* IsCircularSentence.swift */; };
+		E03FABC82A5E99470070BDC6 /* AlternateDigitSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABC72A5E99470070BDC6 /* AlternateDigitSum.swift */; };
+		E03FABCA2A5FD0830070BDC6 /* MinFallingPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABC92A5FD0830070BDC6 /* MinFallingPathSum.swift */; };
+		E03FABCC2A60FA060070BDC6 /* IsPowerOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABCB2A60FA060070BDC6 /* IsPowerOfTwo.swift */; };
+		E03FABCE2A60FEC80070BDC6 /* IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABCD2A60FEC80070BDC6 /* IsPalindrome.swift */; };
+		E03FABD02A6123D90070BDC6 /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABCF2A6123D90070BDC6 /* IsAnagram.swift */; };
+		E03FABD22A6132DE0070BDC6 /* BinaryTreePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABD12A6132DE0070BDC6 /* BinaryTreePaths.swift */; };
+		E03FABD42A61381D0070BDC6 /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABD32A61381D0070BDC6 /* AddDigits.swift */; };
+		E03FABD62A6143530070BDC6 /* FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABD52A6143530070BDC6 /* FirstBadVersion.swift */; };
+		E03FABD82A614BAD0070BDC6 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABD72A614BAD0070BDC6 /* MoveZeroes.swift */; };
+		E03FABDA2A64E6300070BDC6 /* AddStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03FABD92A64E6300070BDC6 /* AddStrings.swift */; };
+		E06AEE672A65283E00549DBD /* WordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AEE662A65283E00549DBD /* WordPattern.swift */; };
+		E06AEE692A65327600549DBD /* NumArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AEE682A65327600549DBD /* NumArray.swift */; };
+		E06AEE6B2A65387400549DBD /* CountBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AEE6A2A65387400549DBD /* CountBits.swift */; };
+		E06AEE6D2A653B1D00549DBD /* IsPowerOfFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AEE6C2A653B1D00549DBD /* IsPowerOfFour.swift */; };
+		E06AEE6F2A653DF600549DBD /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AEE6E2A653DF600549DBD /* ReverseString.swift */; };
+		E06AEE712A65401C00549DBD /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AEE702A65401C00549DBD /* Intersect.swift */; };
+		E06AEE732A663AD000549DBD /* GuessNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AEE722A663AD000549DBD /* GuessNumber.swift */; };
+		E06AEE752A663FA000549DBD /* CanConstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AEE742A663FA000549DBD /* CanConstruct.swift */; };
 		E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDCE26C0C8050026F5AC /* AppDelegate.swift */; };
 		E0BCFDD126C0C8050026F5AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDD026C0C8050026F5AC /* SceneDelegate.swift */; };
 		E0BCFDD326C0C8050026F5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFDD226C0C8050026F5AC /* ViewController.swift */; };
@@ -44,6 +62,10 @@
 		E0BCFF6926C611E80026F5AC /* CountDigitOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF6826C611E80026F5AC /* CountDigitOne.swift */; };
 		E0BCFF6C26C646760026F5AC /* StringMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF6B26C646760026F5AC /* StringMultiply.swift */; };
 		E0BCFF6F26C64E370026F5AC /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCFF6E26C64E370026F5AC /* RotateArray.swift */; };
+		E0CB75412A555C9100E7F131 /* KItemsWithMaximumSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CB75402A555C9100E7F131 /* KItemsWithMaximumSum.swift */; };
+		E0ECE3DB2A5043F500CA9F5C /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE3DA2A5043F500CA9F5C /* TwoSum.swift */; };
+		E0ECE3DD2A52B6E100CA9F5C /* IsIsomorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE3DC2A52B6E100CA9F5C /* IsIsomorphic.swift */; };
+		E0ECE3DF2A53C39A00CA9F5C /* MatrixSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECE3DE2A53C39A00CA9F5C /* MatrixSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +79,24 @@
 		E009B3A82A4D9D4E0065A776 /* ConvertToTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertToTitle.swift; sourceTree = "<group>"; };
 		E009B3AA2A4DA1F40065A776 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		E009B3AC2A4E86950065A776 /* IsCircularSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsCircularSentence.swift; sourceTree = "<group>"; };
+		E03FABC72A5E99470070BDC6 /* AlternateDigitSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateDigitSum.swift; sourceTree = "<group>"; };
+		E03FABC92A5FD0830070BDC6 /* MinFallingPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinFallingPathSum.swift; sourceTree = "<group>"; };
+		E03FABCB2A60FA060070BDC6 /* IsPowerOfTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPowerOfTwo.swift; sourceTree = "<group>"; };
+		E03FABCD2A60FEC80070BDC6 /* IsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPalindrome.swift; sourceTree = "<group>"; };
+		E03FABCF2A6123D90070BDC6 /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
+		E03FABD12A6132DE0070BDC6 /* BinaryTreePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePaths.swift; sourceTree = "<group>"; };
+		E03FABD32A61381D0070BDC6 /* AddDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigits.swift; sourceTree = "<group>"; };
+		E03FABD52A6143530070BDC6 /* FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBadVersion.swift; sourceTree = "<group>"; };
+		E03FABD72A614BAD0070BDC6 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
+		E03FABD92A64E6300070BDC6 /* AddStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrings.swift; sourceTree = "<group>"; };
+		E06AEE662A65283E00549DBD /* WordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPattern.swift; sourceTree = "<group>"; };
+		E06AEE682A65327600549DBD /* NumArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumArray.swift; sourceTree = "<group>"; };
+		E06AEE6A2A65387400549DBD /* CountBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountBits.swift; sourceTree = "<group>"; };
+		E06AEE6C2A653B1D00549DBD /* IsPowerOfFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPowerOfFour.swift; sourceTree = "<group>"; };
+		E06AEE6E2A653DF600549DBD /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		E06AEE702A65401C00549DBD /* Intersect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersect.swift; sourceTree = "<group>"; };
+		E06AEE722A663AD000549DBD /* GuessNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumber.swift; sourceTree = "<group>"; };
+		E06AEE742A663FA000549DBD /* CanConstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanConstruct.swift; sourceTree = "<group>"; };
 		E0BCFDCB26C0C8050026F5AC /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BCFDCE26C0C8050026F5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BCFDD026C0C8050026F5AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +126,10 @@
 		E0BCFF6826C611E80026F5AC /* CountDigitOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDigitOne.swift; sourceTree = "<group>"; };
 		E0BCFF6B26C646760026F5AC /* StringMultiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringMultiply.swift; sourceTree = "<group>"; };
 		E0BCFF6E26C64E370026F5AC /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
+		E0CB75402A555C9100E7F131 /* KItemsWithMaximumSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KItemsWithMaximumSum.swift; sourceTree = "<group>"; };
+		E0ECE3DA2A5043F500CA9F5C /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		E0ECE3DC2A52B6E100CA9F5C /* IsIsomorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsIsomorphic.swift; sourceTree = "<group>"; };
+		E0ECE3DE2A53C39A00CA9F5C /* MatrixSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +196,28 @@
 				E009B3A82A4D9D4E0065A776 /* ConvertToTitle.swift */,
 				E009B3AA2A4DA1F40065A776 /* MajorityElement.swift */,
 				E009B3AC2A4E86950065A776 /* IsCircularSentence.swift */,
+				E0ECE3DA2A5043F500CA9F5C /* TwoSum.swift */,
+				E0ECE3DC2A52B6E100CA9F5C /* IsIsomorphic.swift */,
+				E0ECE3DE2A53C39A00CA9F5C /* MatrixSum.swift */,
+				E0CB75402A555C9100E7F131 /* KItemsWithMaximumSum.swift */,
+				E03FABC72A5E99470070BDC6 /* AlternateDigitSum.swift */,
+				E03FABC92A5FD0830070BDC6 /* MinFallingPathSum.swift */,
+				E03FABCB2A60FA060070BDC6 /* IsPowerOfTwo.swift */,
+				E03FABCD2A60FEC80070BDC6 /* IsPalindrome.swift */,
+				E03FABCF2A6123D90070BDC6 /* IsAnagram.swift */,
+				E03FABD12A6132DE0070BDC6 /* BinaryTreePaths.swift */,
+				E03FABD32A61381D0070BDC6 /* AddDigits.swift */,
+				E03FABD52A6143530070BDC6 /* FirstBadVersion.swift */,
+				E03FABD72A614BAD0070BDC6 /* MoveZeroes.swift */,
+				E03FABD92A64E6300070BDC6 /* AddStrings.swift */,
+				E06AEE662A65283E00549DBD /* WordPattern.swift */,
+				E06AEE682A65327600549DBD /* NumArray.swift */,
+				E06AEE6A2A65387400549DBD /* CountBits.swift */,
+				E06AEE6C2A653B1D00549DBD /* IsPowerOfFour.swift */,
+				E06AEE6E2A653DF600549DBD /* ReverseString.swift */,
+				E06AEE702A65401C00549DBD /* Intersect.swift */,
+				E06AEE722A663AD000549DBD /* GuessNumber.swift */,
+				E06AEE742A663FA000549DBD /* CanConstruct.swift */,
 				E0BCFDD426C0C8050026F5AC /* Main.storyboard */,
 				E0BCFDD726C0C8080026F5AC /* Assets.xcassets */,
 				E0BCFDD926C0C8080026F5AC /* LaunchScreen.storyboard */,
@@ -230,38 +296,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06AEE6D2A653B1D00549DBD /* IsPowerOfFour.swift in Sources */,
+				E03FABD02A6123D90070BDC6 /* IsAnagram.swift in Sources */,
 				E0BCFF6926C611E80026F5AC /* CountDigitOne.swift in Sources */,
 				E0BCFDE426C0C82B0026F5AC /* IsUgly.swift in Sources */,
 				E009B3272A498D090065A776 /* Generate.swift in Sources */,
 				E0BCFF1826C294A60026F5AC /* ValidBrackets.swift in Sources */,
 				E0BCFF2126C4BB110026F5AC /* LongestPalindromeSubseq.swift in Sources */,
+				E03FABCA2A5FD0830070BDC6 /* MinFallingPathSum.swift in Sources */,
+				E03FABCE2A60FEC80070BDC6 /* IsPalindrome.swift in Sources */,
+				E03FABCC2A60FA060070BDC6 /* IsPowerOfTwo.swift in Sources */,
 				E009B3AD2A4E86950065A776 /* IsCircularSentence.swift in Sources */,
 				E0BCFDD326C0C8050026F5AC /* ViewController.swift in Sources */,
+				E0CB75412A555C9100E7F131 /* KItemsWithMaximumSum.swift in Sources */,
 				E009B3222A483D650065A776 /* IsSameTree.swift in Sources */,
 				E0BCFF0F26C25CD20026F5AC /* ThreeSumClosest.swift in Sources */,
+				E06AEE6B2A65387400549DBD /* CountBits.swift in Sources */,
+				E06AEE732A663AD000549DBD /* GuessNumber.swift in Sources */,
+				E03FABDA2A64E6300070BDC6 /* AddStrings.swift in Sources */,
 				E0BCFF0C26C21A3C0026F5AC /* ArithmeticSlices.swift in Sources */,
+				E0ECE3DB2A5043F500CA9F5C /* TwoSum.swift in Sources */,
 				E009B31C2A42FC2C0065A776 /* AddBinary.swift in Sources */,
+				E0ECE3DF2A53C39A00CA9F5C /* MatrixSum.swift in Sources */,
 				E0BCFDF826C141A20026F5AC /* RomanNumber.swift in Sources */,
 				E009B3AB2A4DA1F40065A776 /* MajorityElement.swift in Sources */,
 				E0BCFF1B26C3A0120026F5AC /* IsPrefixString.swift in Sources */,
 				E0BCFDF226C10C3F0026F5AC /* ConvertString.swift in Sources */,
+				E06AEE712A65401C00549DBD /* Intersect.swift in Sources */,
 				E0BCFF3026C523700026F5AC /* FirstMissingPositive.swift in Sources */,
 				E0BCFDCF26C0C8050026F5AC /* AppDelegate.swift in Sources */,
 				E0BCFF2426C4F5020026F5AC /* SearchArray.swift in Sources */,
+				E06AEE6F2A653DF600549DBD /* ReverseString.swift in Sources */,
+				E03FABD82A614BAD0070BDC6 /* MoveZeroes.swift in Sources */,
 				E009B3A72A4D8ADD0065A776 /* ReconstructMatrix.swift in Sources */,
 				E0BCFF2726C50E4F0026F5AC /* IsValidSudoku.swift in Sources */,
 				E0BCFF1226C27DAD0026F5AC /* LetterCombinations.swift in Sources */,
 				E0BCFF2A26C5170A0026F5AC /* CountAndSay.swift in Sources */,
+				E06AEE752A663FA000549DBD /* CanConstruct.swift in Sources */,
+				E03FABD22A6132DE0070BDC6 /* BinaryTreePaths.swift in Sources */,
 				E0BCFF1E26C3BB870026F5AC /* RemoveDuplicates.swift in Sources */,
 				E009B3A92A4D9D4E0065A776 /* ConvertToTitle.swift in Sources */,
 				E009B3242A4933110065A776 /* PivotInteger.swift in Sources */,
+				E0ECE3DD2A52B6E100CA9F5C /* IsIsomorphic.swift in Sources */,
 				E009B3202A4822510065A776 /* DeleteDuplicates.swift in Sources */,
+				E03FABD42A61381D0070BDC6 /* AddDigits.swift in Sources */,
 				E009B31E2A47E41D0065A776 /* CheckOverlap.swift in Sources */,
 				E0BCFF2D26C521280026F5AC /* CombinationSum.swift in Sources */,
 				E0BCFF6F26C64E370026F5AC /* RotateArray.swift in Sources */,
 				E0BCFF1526C284BE0026F5AC /* RemoveNthFromEnd.swift in Sources */,
+				E06AEE692A65327600549DBD /* NumArray.swift in Sources */,
+				E06AEE672A65283E00549DBD /* WordPattern.swift in Sources */,
+				E03FABC82A5E99470070BDC6 /* AlternateDigitSum.swift in Sources */,
 				E0BCFDEB26C0FF880026F5AC /* KWeakestRows.swift in Sources */,
 				E0BCFDD126C0C8050026F5AC /* SceneDelegate.swift in Sources */,
+				E03FABD62A6143530070BDC6 /* FirstBadVersion.swift in Sources */,
 				E0BCFDF526C115460026F5AC /* MyAtoi.swift in Sources */,
 				E0BCFF6C26C646760026F5AC /* StringMultiply.swift in Sources */,
 			);

@@ -44,8 +44,19 @@ class RemoveNthFromEnd: NSObject {
         return dummy.next
     }
     
-    func swapeTwoNode() {
-        
+    // 203. 移除链表元素 https://leetcode.cn/problems/remove-linked-list-elements/
+    func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
+        let dummy = ListNode(val - 1)
+        dummy.next = head
+        var temp: ListNode? = dummy
+        while temp?.next != nil {
+            if temp?.next?.val == val {
+                temp?.next = temp?.next?.next;
+            }else{
+                temp = temp?.next;
+            }
+        }
+        return dummy.next
     }
 }
 
