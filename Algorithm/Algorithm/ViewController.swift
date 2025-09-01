@@ -8,16 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        let u = IsSubsequence()
-        let r = u.isSubsequence("axc", "ahbgdc")
-        print(r)
-//        var arr = [1,0,1,0,3,12]
-//        u.moveZeroes(&arr)
+        let u = SortMatrix()
+        let r = u.sortMatrix([[1,7,3],[9,8,2],[4,5,6]])
+        print("result：\(r)")
     }
 }
 
