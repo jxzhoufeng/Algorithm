@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,14 +18,6 @@ class ViewController: UIViewController {
         let r = u.findNumberOfLIS([2,2,2,2,2])
         print(r)
         
-    }
-
-    func test() {
-        let timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(callBack), userInfo: nil, repeats: true)
-    }
-    
-    @objc func callBack() {
-        print(123)
     }
 }
 
