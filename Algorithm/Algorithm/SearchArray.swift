@@ -88,4 +88,21 @@ class SearchArray: NSObject {
         }
         return left
     }
+    
+    
+    // 704. 二分查找 https://leetcode-cn.com/problems/binary-search/
+    func binarySearch(_ nums: [Int], _ target: Int) -> Int {
+        var left = 0, right = nums.count - 1, mid = 0
+        while left <= right {
+            mid = left + (right - left) / 2
+            if nums[mid] == target {
+                return mid
+            }else if nums[mid] > target {
+                right = mid - 1
+            }else {
+                left = mid + 1
+            }
+        }
+        return -1
+    }
 }
